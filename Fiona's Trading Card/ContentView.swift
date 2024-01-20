@@ -9,16 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                NavigationLink(destination: {
+                    MK()
+                }, label: {
+                    LMS()
+                })
+                NavigationLink(destination: {
+                    BJ()
+                }, label: {
+                    LBJ()
+                })
+                NavigationLink(destination: {
+                    BB()
+                }, label: {
+                    LBB()
+                })
+                NavigationLink(destination: {
+                    RR()
+                }, label: {
+                    LRR()
+                })
+                NavigationLink(destination: {
+                    PM()
+                }, label: {
+                    LPM()
+                })
+                .navigationTitle("U.S. Alpine Ski Team")
+            }
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
