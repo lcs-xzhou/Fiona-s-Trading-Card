@@ -41,6 +41,16 @@ struct ContentView: View {
                 }, label: {
                     Link(image1: "NO", name1: "Nina O'Brien", introduction: "Nina O'Brien is an American World Cup alpine ski racer.")
                 })
+                NavigationLink(destination: {
+                    Template(NameOfAthlete: "Isabella Wright", imageName: "IW", Hometown: "Salt Lake City, Utah", Born: "December 10th, 1997", Club: "Snowbird Sports Education Foundation", Career: "Wright grew up skiing and ski racing on the West Coast, out of the Snowbird Sports Education Foundation, and showed fast skiing from a young age. ")
+                }, label: {
+                    Link(image1: "IW", name1: "Isabella Wright", introduction: "Wright is born and raised vegan and loves to cook. She is also a cat lover. ")
+                })
+                NavigationLink(destination: {
+                    Template(NameOfAthlete: "Jared Goldberg", imageName: "JG", Hometown: "Salt Lake City, Utah", Born: "June 17th, 1991", Club: "Snowbird Sports Education Foundation", Career: "Goldberg had his career best season in 2023 when he narrowly missed the podium in Kitzbühel snagging a fourth place in the famed downhill.")
+                }, label: {
+                    Link(image1: "JG", name1: "Jared Goldberg", introduction: "Goldberg can be found biking, surfing, and playing the ukulele and harmonica.")
+                })
                 .navigationTitle("U.S. Alpine Ski Team")
             }
         }
