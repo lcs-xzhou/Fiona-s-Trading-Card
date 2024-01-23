@@ -10,6 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
+            VStack {
+                Divider()
+                    .background(
+                        LinearGradient(colors: [.darkBlue, .brightRed], startPoint: .leading, endPoint: UnitPoint(x: 0.8, y: 0.75))
+                            .opacity(0.6)
+                            .shadow(.drop(radius: 2, y: 2)),
+                            ignoresSafeAreaEdges: .top)
             List {
                 NavigationLink(destination: {
                     Template(NameOfAthlete: "Mikaela Shiffrin", imageName: "MK", Hometown: "Edwards, Colo.", Born: "March 13th, 1995", Club: "Burke Mountain Academy", Career: "In the 2022-23 season Shiffrin officially became the winningest alpine skier of all time, as of March 11th, 2023, when she secured her 87th World Cup victory in Are, Sweden.")
@@ -51,8 +58,9 @@ struct ContentView: View {
                 }, label: {
                     Link(image1: "JG", name1: "Jared Goldberg", introduction: "Goldberg can be found biking, surfing, and playing the ukulele and harmonica.")
                 })
-                .navigationTitle("U.S. Alpine Ski Team")
             }
+            }
+            .navigationTitle("U.S. Alpine Ski Team")
         }
     }
 }
