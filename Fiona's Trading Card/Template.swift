@@ -33,9 +33,10 @@ struct Template: View {
                     VStack {
                         Text(NameOfAthlete)
                             .foregroundStyle(linearGradient2)
-                            .font(.title)
                             .fontWeight(.bold)
                             .padding(.trailing, 160)
+                            .font(
+                                .custom("Futura-Medium", size: 25))
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
                                 .aspectRatio(1, contentMode: .fit)
