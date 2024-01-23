@@ -15,84 +15,93 @@ struct Template: View {
         let Born: String
         let Club: String
         let Career: String
-        
+    let gradientColors1 = Gradient(colors: [Color.darkBlue, Color.brightRed])
+    let gradientColors2 = Gradient(colors: [Color.white, Color.brightRed])
+
+    
         var body: some View {
+            
+            let linearGradient1 = LinearGradient(gradient: gradientColors1, startPoint: UnitPoint(x: 0.65, y: 0.65), endPoint: UnitPoint(x: 0.8, y: 0.75))
+            let linearGradient2 = LinearGradient(gradient: gradientColors2, startPoint: .topLeading, endPoint: .bottomTrailing)
+            
             VStack {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 10)
-                        .foregroundColor(.darkBlue)
+                    Rectangle()
+                        .fill(linearGradient1)
                         .frame(height: 550)
                         .ignoresSafeArea()
                     VStack {
                         Text(NameOfAthlete)
-                            .foregroundStyle(.white)
-                            .fontWeight(.bold)
+                            .foregroundStyle(linearGradient2)
                             .font(.title)
+                            .fontWeight(.bold)
                             .padding(.trailing, 160)
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
                                 .aspectRatio(1, contentMode: .fit)
-                                .padding(.horizontal, 10)
+                                .padding(.horizontal, 20)
                                 .foregroundColor(.white)
                             RoundedRectangle(cornerRadius: 10)
                                 .aspectRatio(1, contentMode: .fit)
-                                .padding(.horizontal, 20)
+                                .padding(.horizontal, 30)
                                 .foregroundColor(.brightRed)
                             RoundedRectangle(cornerRadius: 10)
                                 .aspectRatio(1, contentMode: .fit)
-                                .padding(.horizontal, 30)
+                                .padding(.horizontal, 40)
                                 .foregroundColor(.white)
                             Image(imageName)
                                 .resizable()
                                 .aspectRatio(1, contentMode: .fit)
-                                .padding(.horizontal, 40)
+                                .padding(.horizontal, 50)
+                            HStack {
+                                Spacer()
+                                VStack {
+                                    Spacer()
+                                    Image("US")
+                                        .resizable()
+                                        .frame(width: 100)
+                                        .aspectRatio(2.5, contentMode: .fit)
+                                        .padding(.horizontal, 40)
+                                        .padding(.bottom, 20)
+                                }
+                            }
                         }
                         .padding(.bottom, 150)
                     }
-                    HStack {
-                        Spacer()
-                        VStack {
-                            Spacer()
-                            Image("US")
-                                .resizable()
-                                .frame(width: 100)
-                                .aspectRatio(2.5, contentMode: .fit)
-                                .padding(.horizontal, 30)
-                                .padding(.bottom, 70)
-                        }
-                    }
-                    .padding(.bottom, 90)
+                    
                 }
-                VStack(alignment: .leading) {
-                    Text("Basic Information")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    HStack(spacing: 20) {
-                        VStack {
-                            Text("Hometown")
-                                .fontWeight(.bold)
-                            Text(Hometown)
+                ZStack {
+                    VStack(alignment: .leading) {
+                        Text("Basic Information")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                        HStack(alignment: .top, spacing: 30) {
+                            VStack(alignment: .leading) {
+                                Text("Hometown")
+                                    .fontWeight(.bold)
+                                Text(Hometown)
+                            }
+                            VStack(alignment: .leading) {
+                                Text("Born")
+                                    .fontWeight(.bold)
+                                Text(Born)
+                            }
+                            VStack(alignment: .leading) {
+                                Text("Club(s)")
+                                    .fontWeight(.bold)
+                                Text(Club)
+                            }
                         }
-                        VStack {
-                            Text("Born")
-                                .fontWeight(.bold)
-                            Text(Born)
-                        }
-                        VStack {
-                            Text("Club(s)")
-                                .fontWeight(.bold)
-                            Text(Club)
-                        }
+                        .padding(.vertical, 5)
+                        Text("Career")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                        Text(Career)
                     }
-                    .padding(.vertical, 5)
-                    Text("Career")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    Text(Career)
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 50)
+                    .padding(.top, -100)
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 50)
-                .padding(.top, -100)
             }
         }
     }

@@ -11,18 +11,8 @@
 		2D7C44E22B5B33C40088552B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44E12B5B33C40088552B /* ContentView.swift */; };
 		2D7C44E42B5B33C60088552B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7C44E32B5B33C60088552B /* Assets.xcassets */; };
 		2D7C44E72B5B33C60088552B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7C44E62B5B33C60088552B /* Preview Assets.xcassets */; };
-		2D7C44EE2B5B34150088552B /* PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44ED2B5B34150088552B /* PM.swift */; };
-		2D7C44F02B5B34450088552B /* RR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44EF2B5B34450088552B /* RR.swift */; };
-		2D7C44F22B5B34690088552B /* BB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44F12B5B34690088552B /* BB.swift */; };
-		2D7C44F42B5B34810088552B /* MK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44F32B5B34810088552B /* MK.swift */; };
-		2D7C44F62B5B34AC0088552B /* BJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44F52B5B34AC0088552B /* BJ.swift */; };
 		2D7C44F82B5B34D20088552B /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44F72B5B34D20088552B /* Template.swift */; };
 		2D7C44FA2B5B92AE0088552B /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44F92B5B92AE0088552B /* Link.swift */; };
-		2D7C44FC2B5B94960088552B /* LMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44FB2B5B94960088552B /* LMS.swift */; };
-		2D7C44FE2B5B95BF0088552B /* LBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44FD2B5B95BF0088552B /* LBJ.swift */; };
-		2D7C45002B5B96900088552B /* LBB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44FF2B5B96900088552B /* LBB.swift */; };
-		2D7C45022B5B971A0088552B /* LRR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C45012B5B971A0088552B /* LRR.swift */; };
-		2D7C45042B5B97990088552B /* LPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C45032B5B97990088552B /* LPM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,18 +21,8 @@
 		2D7C44E12B5B33C40088552B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D7C44E32B5B33C60088552B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7C44E62B5B33C60088552B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2D7C44ED2B5B34150088552B /* PM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM.swift; sourceTree = "<group>"; };
-		2D7C44EF2B5B34450088552B /* RR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RR.swift; sourceTree = "<group>"; };
-		2D7C44F12B5B34690088552B /* BB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB.swift; sourceTree = "<group>"; };
-		2D7C44F32B5B34810088552B /* MK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK.swift; sourceTree = "<group>"; };
-		2D7C44F52B5B34AC0088552B /* BJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ.swift; sourceTree = "<group>"; };
 		2D7C44F72B5B34D20088552B /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		2D7C44F92B5B92AE0088552B /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Link.swift; path = "Fiona's Trading Card/Link.swift"; sourceTree = "<group>"; };
-		2D7C44FB2B5B94960088552B /* LMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMS.swift; sourceTree = "<group>"; };
-		2D7C44FD2B5B95BF0088552B /* LBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBJ.swift; sourceTree = "<group>"; };
-		2D7C44FF2B5B96900088552B /* LBB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBB.swift; sourceTree = "<group>"; };
-		2D7C45012B5B971A0088552B /* LRR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRR.swift; sourceTree = "<group>"; };
-		2D7C45032B5B97990088552B /* LPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				2D7C44F92B5B92AE0088552B /* Link.swift */,
-				2D7C45032B5B97990088552B /* LPM.swift */,
-				2D7C45012B5B971A0088552B /* LRR.swift */,
-				2D7C44FF2B5B96900088552B /* LBB.swift */,
-				2D7C44FD2B5B95BF0088552B /* LBJ.swift */,
-				2D7C44FB2B5B94960088552B /* LMS.swift */,
 				2D7C44DE2B5B33C40088552B /* Fiona's Trading Card */,
 				2D7C44DD2B5B33C40088552B /* Products */,
 			);
@@ -83,11 +58,6 @@
 			children = (
 				2D7C44DF2B5B33C40088552B /* Fiona_s_Trading_CardApp.swift */,
 				2D7C44E12B5B33C40088552B /* ContentView.swift */,
-				2D7C44ED2B5B34150088552B /* PM.swift */,
-				2D7C44EF2B5B34450088552B /* RR.swift */,
-				2D7C44F12B5B34690088552B /* BB.swift */,
-				2D7C44F32B5B34810088552B /* MK.swift */,
-				2D7C44F52B5B34AC0088552B /* BJ.swift */,
 				2D7C44F72B5B34D20088552B /* Template.swift */,
 				2D7C44E32B5B33C60088552B /* Assets.xcassets */,
 				2D7C44E52B5B33C60088552B /* Preview Content */,
@@ -174,19 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7C44E22B5B33C40088552B /* ContentView.swift in Sources */,
-				2D7C45042B5B97990088552B /* LPM.swift in Sources */,
-				2D7C44FE2B5B95BF0088552B /* LBJ.swift in Sources */,
 				2D7C44E02B5B33C40088552B /* Fiona_s_Trading_CardApp.swift in Sources */,
-				2D7C44F62B5B34AC0088552B /* BJ.swift in Sources */,
-				2D7C45002B5B96900088552B /* LBB.swift in Sources */,
-				2D7C44EE2B5B34150088552B /* PM.swift in Sources */,
-				2D7C45022B5B971A0088552B /* LRR.swift in Sources */,
-				2D7C44FC2B5B94960088552B /* LMS.swift in Sources */,
-				2D7C44F22B5B34690088552B /* BB.swift in Sources */,
 				2D7C44F82B5B34D20088552B /* Template.swift in Sources */,
 				2D7C44FA2B5B92AE0088552B /* Link.swift in Sources */,
-				2D7C44F02B5B34450088552B /* RR.swift in Sources */,
-				2D7C44F42B5B34810088552B /* MK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

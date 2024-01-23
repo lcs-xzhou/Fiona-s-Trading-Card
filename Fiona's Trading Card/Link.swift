@@ -19,6 +19,7 @@ struct Link: View {
                 .resizable()
                 .frame(width: 50)
                 .aspectRatio(3, contentMode: .fit)
+                .clipShape(Circle())
             VStack(alignment: .leading) {
                 Text(name1)
                     .bold()
