@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D49D2D72B6432AD0036E4D4 /* TradingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D2D62B6432AD0036E4D4 /* TradingCard.swift */; };
+		2D49D2D92B6435560036E4D4 /* ListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D2D82B6435560036E4D4 /* ListCard.swift */; };
 		2D7C44E02B5B33C40088552B /* Fiona_s_Trading_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44DF2B5B33C40088552B /* Fiona_s_Trading_CardApp.swift */; };
 		2D7C44E22B5B33C40088552B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C44E12B5B33C40088552B /* ContentView.swift */; };
 		2D7C44E42B5B33C60088552B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7C44E32B5B33C60088552B /* Assets.xcassets */; };
@@ -16,13 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D49D2D62B6432AD0036E4D4 /* TradingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCard.swift; sourceTree = "<group>"; };
+		2D49D2D82B6435560036E4D4 /* ListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCard.swift; sourceTree = "<group>"; };
 		2D7C44DC2B5B33C40088552B /* Fiona's Trading Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fiona's Trading Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7C44DF2B5B33C40088552B /* Fiona_s_Trading_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiona_s_Trading_CardApp.swift; sourceTree = "<group>"; };
 		2D7C44E12B5B33C40088552B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D7C44E32B5B33C60088552B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7C44E62B5B33C60088552B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D7C44F72B5B34D20088552B /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
-		2D7C44F92B5B92AE0088552B /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Link.swift; path = "Fiona's Trading Card/Link.swift"; sourceTree = "<group>"; };
+		2D7C44F92B5B92AE0088552B /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,10 +40,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D49D2D42B6432440036E4D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D49D2D62B6432AD0036E4D4 /* TradingCard.swift */,
+				2D49D2D82B6435560036E4D4 /* ListCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D49D2D52B64324C0036E4D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D7C44E12B5B33C40088552B /* ContentView.swift */,
+				2D7C44F72B5B34D20088552B /* Template.swift */,
+				2D7C44F92B5B92AE0088552B /* Link.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2D7C44D32B5B33C40088552B = {
 			isa = PBXGroup;
 			children = (
-				2D7C44F92B5B92AE0088552B /* Link.swift */,
 				2D7C44DE2B5B33C40088552B /* Fiona's Trading Card */,
 				2D7C44DD2B5B33C40088552B /* Products */,
 			);
@@ -57,8 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				2D7C44DF2B5B33C40088552B /* Fiona_s_Trading_CardApp.swift */,
-				2D7C44E12B5B33C40088552B /* ContentView.swift */,
-				2D7C44F72B5B34D20088552B /* Template.swift */,
+				2D49D2D42B6432440036E4D4 /* Model */,
+				2D49D2D52B64324C0036E4D4 /* Views */,
 				2D7C44E32B5B33C60088552B /* Assets.xcassets */,
 				2D7C44E52B5B33C60088552B /* Preview Content */,
 			);
@@ -146,7 +168,9 @@
 				2D7C44E22B5B33C40088552B /* ContentView.swift in Sources */,
 				2D7C44E02B5B33C40088552B /* Fiona_s_Trading_CardApp.swift in Sources */,
 				2D7C44F82B5B34D20088552B /* Template.swift in Sources */,
+				2D49D2D72B6432AD0036E4D4 /* TradingCard.swift in Sources */,
 				2D7C44FA2B5B92AE0088552B /* Link.swift in Sources */,
+				2D49D2D92B6435560036E4D4 /* ListCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
